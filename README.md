@@ -30,6 +30,7 @@ Robust-ImageSCC implements a robust nonparametric framework for analyzing imagin
 The simulation studies are designed to run on cluster systems using SLURM. The provided SLURM scripts use the `--array` option to submit multiple simulation jobs efficiently. For example:
 
 - **OPTIONAL: precompiled C++ code on the head node**
+  
   Launch R on the head node and run `load_cpp_cache.R`.
 
 - **Mean Function Estimation Simulation (replace `<num_jobs>` with the desired number of array tasks.):**  
