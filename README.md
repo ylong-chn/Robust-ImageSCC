@@ -40,3 +40,6 @@ The simulation studies are designed to run on cluster systems using SLURM. The p
   ```{bash}
     sbatch --array=1-<num_jobs> m-bpst-scc-sim.slurm
   ```
+
+## Reference  
+Y. Long, G. Cao, D. Kepplinger, and L. Wang, “Robust Mean Signal Estimation and Inference for Imaging Data.”
