@@ -392,7 +392,7 @@ robust_imagescc <- function(
   list(cc.l=cc.l, cc.u=cc.u, bw=mean(c_b * sqrt(Sigma)*2))
 }
 
-#' Modified `fit.image()` function from the `ImageSCC` package to take a given set of basis results 
+#' Modified `fit.image()` function from the GitHub repository `ImageSCC` (https://github.com/FIRST-Data-Lab/ImageSCC) package to take a given set of basis results 
 fit.image <- function(Y,Z,V.est,Tr.est,d.est=5,r=1,lambda=10^(-6:3),proj.matrix=FALSE,Bfull=NULL, Y_inside=NULL){
   
   n <- nrow(Y)
@@ -513,7 +513,7 @@ fit.image <- function(Y,Z,V.est,Tr.est,d.est=5,r=1,lambda=10^(-6:3),proj.matrix=
   return(mfit)
 }
 
-#' The implementing function of the RDNN method, modified to only take the points inside the domain as the input
+#' The implementing function of the RDNN method, modified from the GitHub repository `FDADNN` (https://github.com/FDASTATAUBURN/FDADNN) to only take the points inside the domain as the input
 rFDADNN=function(Data=NULL, Y_ins=NULL, z_ins=NULL, d, Grid=NULL, N, n, L, p, s, epoch, batch, huber_const=NULL, quantile=NULL){
   
   if (is.null(z_ins) && is.null(Y_ins)) {
