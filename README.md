@@ -42,4 +42,4 @@ The simulation studies are designed to run on cluster systems using SLURM. The p
   ```
 
 ## Reference  
-Y. Long, G. Cao, D. Kepplinger, and L. Wang, “Robust Mean Signal Estimation and Inference for Imaging Data.”
+Y. Long, G. Cao, D. Kepplinger, and L. Wang, “Robust Mean Signal Estimation and Inference for Imaging Data,” *Submitted.*
