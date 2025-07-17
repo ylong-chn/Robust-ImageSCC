@@ -3,8 +3,6 @@
 #SBATCH --partition=normal
 #SBATCH --output=/scratch/%u/%x-%A-%a.out 
 #SBATCH --error=/scratch/%u/%x-%A-%a.err
-#SBATCH --mail-type=BEGIN,END,FAIL
-#SBATCH --mail-user=ylong5@gmu.edu 
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4GB 
 #SBATCH --time=4-00:00 

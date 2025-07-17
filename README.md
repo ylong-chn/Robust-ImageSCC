@@ -29,7 +29,7 @@ The simulation studies are designed to run on cluster systems using SLURM. The p
 - **OPTIONAL: Precompiled C++ Code on the Head Node:**  
   Launch R on the head node and run `load_cpp_cache.R`.
 
-- **Mean Function Estimation Simulation (replace `<num_jobs>` with the desired number of array tasks.):**  
+- **Mean Function Estimation Simulation (replace `<num_jobs>` with the desired number of array tasks):**  
   Submit the job array by running:  
   ```{bash}
     sbatch --array=1-<num_jobs> m-bpst-est-sim.slurm
@@ -42,4 +42,4 @@ The simulation studies are designed to run on cluster systems using SLURM. The p
   ```
 
 ## Reference  
-Y. Long, G. Cao, D. Kepplinger, and L. Wang, “Robust Mean Signal Estimation and Inference for Imaging Data.”
+Y. Long, G. Cao, D. Kepplinger, and L. Wang, “Robust Mean Signal Estimation and Inference for Imaging Data,” *Submitted.*
