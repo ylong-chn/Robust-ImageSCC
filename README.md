@@ -8,10 +8,10 @@
 - **`cpp_func_cls.cpp`**  
   Implements the M-estimation routine using conjugate gradient descent to efficiently update proximal solutions, integrated with R through `Rcpp`.
 
-- **`m-bpst-est-sim.R`**  
+- **`m-bpst-est-sim.R` and `m-bpst-est-sim-r2-hs.R`**  
   Reproduces the simulation results for robust mean function estimation as described in the paper. Simulation scenarios are designed to run with array jobs (see below).
 
-- **`m-bpst-est-sim.slurm`**  
+- **`m-bpst-est-sim.slurm` and `m-bpst-est-sim-r2-hs.slurm`**  
   A SLURM scheduler script for running the mean function estimation simulations. It is configured to utilize job arrays (via the `--array` option) to efficiently manage multiple simulation replications.
 
 - **`m-bpst-scc-sim.R`**  
